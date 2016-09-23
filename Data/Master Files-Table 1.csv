@@ -1,0 +1,183 @@
+,,,,
+Event Status,,,,
+ES1. Open,,,,
+ES2. Closed,,,,
+,,,,
+,,,,
+,,,,
+Cause Categorization,,,,
+CC1. People,,,,
+CC2. IT,,,,
+CC3. Processes,,,,
+CC4. External Events,,,,
+,,,,
+Recovered,,,,
+R1. Yes,,,,
+R2. No,,,,
+,,,,
+Attack Type L1,,,,
+AT0101. Physical - Fraud,,,,
+AT0102. Physical -No Fraud,,,,
+AT0201. Logical - ATM Network,,,,
+AT0202. Logical - Isolated ATM,,,,
+AT0203. Logical - Bank authorizer System,,,,
+AT0204. Logical - HSM Attacks,,,,
+,,,,
+,,,,
+Attack Type L2,,,,
+AT010101. Card Skimming,,,,
+AT010102. Card Trapping,,,,
+AT010103. Cash Trapping,,,,
+AT010104. Transaction Reversal,,,,
+AT010201. Burglary,,,,
+AT010202. Ram Raids,,,,
+AT010203. Explosive & Gas,,,,
+AT010204. Vandalism,,,,
+AT020101. Malware installation,,,,
+AT020102. Internal Penetration Attack,,,,
+AT020101. Man in the middle,,,,
+AT020201. ATM PC,,,,
+AT020202. Blackbox,,,,
+AT020301. Source code (Change Management),,,,
+AT020401. HSM Attacks,,,,
+AT020302. Other,,,,
+,,,,
+Persona Profile1/2,,Persona Profile1/2 - Definitions,,
+Disgruntled Employee,,Current or former employee with intent to harm the function,,
+Competitor,,"Professional data gatherer as a trusted insider, generally with a simple profit motive",,
+Data Miner,,Professional data gatherer external to the company (includes cyber methods),,
+Radical Activist,,"Highly motivated, potentially destructive supporter of cause",,
+Cyber Vandal,,"Derives thrills from intrusion or destruction of property, without agenda",,
+Civil Activist,,,,
+Government Cyber Warrior,,State-sponsored attacker with significant resources to affect major disruption on national scale,,
+Organized Criminal,,Manager of organized crime organization with significant resources,,
+Corrupt Government Official,,Person who inappropriately uses his or her position within the government to acquire function resources,,
+Terrorist,,Person who relies on the use of violence to support personal socio-political agenda,,
+Anarchist,,"Someone who rejects all forms of structure, private or public, and acts with few constraints",,
+Sensationalist,,,,
+Irrational Individual,,Someone with illogical purpose and irrational behavior,,
+Legal Adversary,,,,
+Internal Spy,,"Professional data gatherer as a trusted insider, generally with a simple profit motive",,
+Government Spy,,"State-sponsored spy or agent as a trusted insider, supporting idealistic goals",,
+Thief,,Opportunistic individual with simple profit motive,,
+Vendor,,,,
+Reckless Employee,,,,
+Untrained Employee,,,,
+Information Partner,,,,
+,,,,
+,,,,
+Event Type 1,,Eventy Type 1- Description,,Event Type 1 - Examples
+ET1. Internal fraud,,"Losses due to acts of a type intended to defraud, misappropriate property or circumvent regulations, the law or company policy, excluding diversity/discrimination events, which involves at least one internal party.
+",,"Employee theft, intentional misreporting of positions, insider trading"
+ET2. External fraud,,"Losses due to acts of a type intended to defraud, misappropriate property or circumvent the law, by a third party.
+",,"Robbery, forgery and check kiting"
+ET3. Employement practices and workplace safety,,"Losses arising from acts inconsistent with employment, health or safety laws or agreements, from payment of personal injury claims, or from diversity / discrimination events. 
+",,"Workers' compensation and discrimination claims, violation of health and safety rules and general liability and safety laws"
+"ET4. Clients, products and business practices",,"Losses arising from an unintentional or negligent failure to meet a professional obligation to specific clients (including fiduciary and suitability requirements), or from the nature or design of a product.
+",,"Sale of unathorized products, breach of confidenciality, money laundering, misuse of customer information indirectly"
+ET5. Damage to physical assets,,"Losses arising from loss or damage to physical assets from natural disaster or other events. 
+",,"Terrorism, vandalism, eartquakes, fires, and floods"
+ET6. Business disruption or systems failure,,"Losses arising from disruption of business or system failures.
+",,"Hardware/software failures, telecommunication problems, and utility outages"
+"ET7. Execution, delivery and process management",,"Losses from failed transaction processing or process management, from relations with trade counterparties and vendors.
+",,Incomplete legal documentation and vendor disputes
+,,,,
+Event Type 2,,Event Type 3 - Examples,,
+ET11. Unauthorized activity,,"Transactions not reported (intentional)
+Transaction type unauthorised (w/monetary loss)
+Mismarking of position (intentional) 
+",,
+ET12. Internal theft and fraud,,"Fraud / credit fraud / worthless deposits
+Theft / extortion / embezzlement / robbery
+Misappropriation of assets
+Malicious destruction of assets
+Forgery
+Check kiting
+Smuggling
+Account take-over / impersonation / etc.
+Tax non-compliance / evasion (wilful)
+Bribes / kickbacks
+Insider trading (not on firm’s account) 
+",,
+ET21. External theft and fraud,,"Theft/Robbery
+Forgery
+Check kiting 
+",,
+ET22. System security ,,"Hacking damage
+Theft of information (w/monetary loss) 
+",,
+ET31. Employee relations,,"Compensation, benefit, termination issues
+Organised labour activity 
+",,
+ET32. Safe environment,,"General liability (slip and fall, etc.)
+Employee health & safety rules events
+Workers compensation 
+",,
+ET33. Diversity and discrimination,,"All discrimination types 
+",,
+"ET41. Suitability, disclosure and fiduciary",,"Fiduciary breaches / guideline violations
+Suitability / disclosure issues (KYC, etc.)
+Retail customer disclosure violations
+Breach of privacy
+Aggressive sales
+Account churning
+Misuse of confidential information
+Lender liability 
+",,
+ET42. Improper business or market practices,,"Antitrust
+Improper trade / market practices
+Market manipulation
+Insider trading (on firm’s account)
+Unlicensed activity
+Money laundering 
+",,
+ET43. Product flaws,,"Product defects (unauthorised, etc.)
+Model errors 
+",,
+"ET44. Selection, sponsorship and exposure",,"Failure to investigate client per guidelines
+Exceeding client exposure limits 
+",,
+ET45. Advisory activities,,"Disputes over performance of advisory activities 
+",,
+ET51. Disaster and other events,,"Natural disaster losses
+Human losses from external sources (terrorism, vandalism)
+",,
+ET61. Systems,,"Hardware
+Software
+Telecommunications
+Utility outage / disruptions 
+",,
+"ET71. Transaction capture, execution and maintenance",,"Miscommunication
+Data entry, maintenance or loading error
+Missed deadline or responsibility
+Model / system misoperation
+Accounting error / entity attribution error
+Other task misperformance
+Delivery failure
+Collateral management failure
+Reference Data Maintenance 
+",,
+ET72. Monitoring and reporting,,"Failed mandatory reporting obligation
+Inaccurate external report (loss incurred) 
+",,
+ET73. Customer intake and documentation,,"Client permissions / disclaimers missing
+Legal documents missing / incomplete 
+",,
+ET74. Customer/client account management,,"Unapproved access given to accounts
+Incorrect client records (loss incurred)
+Negligent loss or damage of client assets 
+",,
+ET75. Trade counterparties,,"Non-client counterparty misperformance
+Misc. non-client counterparty disputes 
+",,
+ET76. Vendors and suppliers,,"Outsourcing
+Vendor disputes 
+",,
+,,,,
+,,,,
+Implementation Type,,,,
+I1. Bank Branches,,,,
+I2. Drive-Thru,,,,
+I3. Hole-in-the-Wall,,,,
+I4. Retail store,,,,
+I5. Other,,,,
